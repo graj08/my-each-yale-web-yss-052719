@@ -12,5 +12,4 @@ collection = [1, 2, 3, 4]
 return_array = Array.new
 my_each(collection) do |i|
   return_array << collection[i]
-  return return_array
 end
